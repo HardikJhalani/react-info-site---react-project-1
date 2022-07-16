@@ -1,4 +1,5 @@
 .main {
+    position: relative;
     padding: 30px;
     height: 82vh;
     background-color: #23272C;
@@ -13,4 +14,13 @@
 
 .items>li::marker {
     color: #53C1DE;
+}
+
+.bglogo {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    width: 250px;
+    filter: saturate(0.1);
+    opacity: 0.2;
 }
