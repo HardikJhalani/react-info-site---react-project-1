@@ -1,0 +1,16 @@
+.main {
+    padding: 30px;
+    height: 82vh;
+    background-color: #23272C;
+    color: white;
+}
+
+.main>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.items>li::marker {
+    color: #53C1DE;
+}

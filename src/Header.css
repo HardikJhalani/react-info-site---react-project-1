@@ -1,0 +1,28 @@
+.navbar {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #1E1E24;
+}
+
+.navbar>h4 {
+    color: white;
+    font-size: 16px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.nav-left>img {
+    width: 30px;
+}
+
+.nav-left>h3 {
+    font-size: 20px;
+    color: #53C1DE;
+}
